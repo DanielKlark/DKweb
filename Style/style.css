@@ -1,0 +1,160 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: "Open Sans", sans-serif;
+    border: none;
+    outline: none;
+}
+
+.container {
+    max-width: 1100px;
+    margin: auto;
+}
+
+.header-wrap {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+    align-items: center;
+}
+
+.menu {
+    display: flex;
+    gap: 50px;
+}
+
+.menu-item {
+    display: flex;
+    gap: 50px;
+}
+
+.menu-item.active {
+    padding-bottom: 10px;
+    border-bottom: 2px solid #5454d4;
+}
+
+.menu-link {
+    font-size: 15px;
+    color: #696871;
+    font-weight: bold;
+    letter-spacing: -0.47px;
+}
+
+.active .menu-link {
+    color: black;
+}
+
+.btn {
+    background: #ff7143;
+    font-size: 17px;
+    font-weight: bold;
+    letter-spacing: -0.53px;
+    color: white;
+    padding: 19px 60px;
+    border-radius: 10px;
+}
+
+.first-section {
+    padding-right: 100px;
+    padding-left: 100px;
+
+}
+
+.section-heading {
+    font-weight: 700;
+    line-height: 77px;
+    letter-spacing: -2.5px;
+}
+
+.section-heading.h2 {
+    font-size: 50px;
+}
+
+.section-heading.h1 {
+    font-size: 75px;
+}
+
+.description {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    color: #696871;
+    margin-top: 30px;
+}
+
+.section-wrap {
+    max-width: 1070px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.blue {
+    background: #5454D4;
+    margin-top: 50px;
+}
+
+.block {
+    max-width: 461px;
+}
+
+.img-wrap {
+    max-width: 569px;
+    align-items: flex-end;
+    margin-left: 72px;
+}
+
+.second-section {
+    padding-left: 186px;
+    padding-right: 186px;
+}
+
+.logos {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    margin: 120px 0;
+}
+
+.learn {
+    font-size: 17px;
+    font-weight: 700;
+    margin-top: 30px;
+    color: #5454D4;
+}
+.fourth-section{
+margin-top: 81px;
+}
+.cards-wrap{
+padding: 181px 0;
+display: flex;
+justify-content: space-between;
+}
+.card{
+text-align: center;
+max-width: 307px;
+text-align: center;
+}
+.section-heading.h3{
+font-size: 24px;
+text-align: center;
+font-weight: 700;
+letter-spacing: -0.75px;
+line-height: 36px;
+}
+.card-img{
+max-width: 181px;
+max-height: 97px;
+}
+.description.card{
+font-size: 16px;
+font-weight: 400;
+text-align: center;
+margin-top: 20px;
+}
